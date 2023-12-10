@@ -16,8 +16,8 @@ function Navbar(){
         <div className="sidebutton">
             <div className="firstbutton"><Link to='/'>Home</Link></div>
             <div className="firstbutton"><a href="#about" style={CBlack}>About</a></div>
-            <div className="firstbutton"><Link to='cafe'><a href="" style={CBlack}>Cafe</a></Link></div>
-            <div className="secondbutton"><a href="">Akun</a></div>
+            <div className="firstbutton"><Link to='Cafe'><a href="" style={CBlack}>Cafe</a></Link></div>
+            <div className="secondbutton"><Link to='Loginuser'>Akun</Link></div>
         </div>
     </div>
     );

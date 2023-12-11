@@ -7,7 +7,7 @@ function Cart(){
     return(
         <>
         <Navbarin />
-        <div className="container">
+        <div className="containers">
             <Card />
             <div className="struk">
             <table>

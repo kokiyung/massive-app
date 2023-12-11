@@ -1,9 +1,10 @@
 import './Navfoot.css'
+import image from '../src/Haluser/Img/cafe/1.png'
 
 function Card(){
     return(
         <div className="card">
-                <img alt=""/>
+                <img src={image} alt=""/>
                 <div className="cafedes">
                     <div className="firstdes">
                         <div className="cafename">CAFE MALAKA</div>

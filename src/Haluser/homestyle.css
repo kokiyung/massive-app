@@ -144,8 +144,9 @@ p{
 /* Section Cafe */
 .cafe{
     text-align: center;
-    background-color: #FBFBFB;
-    padding-top: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+    
 }
 .cafe h1{
     font-family: poppins;
@@ -155,24 +156,25 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 .cafe .cafelist .card{
     background-color: #262626;;
     border-radius: 20px;
     color: white;
     font-family: poppins;
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 .cafe .cafelist .card img{
     width: 350px;
-    height: 450px;
+    height: 300px;
     border-radius: 20px 20px 0 0;
 }
 .cafe .cafelist .card .cafedes{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
 }
 .cafe .cafelist .card .cafedes .firstdes{
     text-align: left;
@@ -190,9 +192,10 @@ p{
     font-weight: bold;
 }
 .cafe .cafelist .card .cafedes .seconddes a{
-    text-decoration: none;
-    color: white;
- }
+   text-decoration: none;
+   color: white;
+}
+
 /* MENU SECTION */
 .menusection{
     text-align: center;

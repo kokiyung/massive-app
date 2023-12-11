@@ -6,7 +6,7 @@ function Payment(){
     return(
         <>
         <Navbarin />
-        <div className="container">
+        <div className="containers">
             <div className="struk">
             <table>
                 <tr>

@@ -25,7 +25,7 @@ function Loginuser(){
                 <input type="password" placeholder="Password" /><br />
                 </form>
                 <div className="loginbutton">
-            <button><Link to='/'>Login</Link></button>
+            <button><Link to='/CafeList'>Login</Link></button>
             <button><Link to='../Registeruser'>Register</Link></button>
           </div>
         </div>

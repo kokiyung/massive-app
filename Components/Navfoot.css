@@ -38,6 +38,10 @@
     font-weight: bold;
     color: #FCB040;
 }
+.navbar .centernav{
+    font-size: 20px;
+    font-family: poppins;
+}
 
 .navbar .sidebutton .secondbutton{
     background-color: #FCB040;

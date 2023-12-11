@@ -28,7 +28,7 @@ function Registeruser(){
                 </form>
                 <div className="loginbutton">
             <button><Link to='../Loginuser'>&#8592; Back</Link></button>
-            <button><Link to='/'>Register Now</Link></button>
+            <button><Link to='../Loginuser'>Register Now</Link></button>
           </div>
         </div>
       </div>

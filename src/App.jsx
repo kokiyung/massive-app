@@ -8,6 +8,11 @@ import Cafelist from './Haluser/Cafelist.jsx'
 import Menulist from './Haluser/Menulist.jsx'
 import Cart from './Haluser/Cart.jsx'
 import Payment from './Haluser/Payment.jsx'
+import Mitra from './Halmitra/Mitra.jsx'
+import Product from './Halmitra/Product.jsx'
+
+
+
 
 
 function App(){
@@ -22,6 +27,10 @@ function App(){
       <Route path='MenuList'element={<Menulist />}></Route>
       <Route path='Cart' element={<Cart />}></Route>
       <Route path='Payment' element={<Payment />}></Route>
+      <Route path='Mitra' element={<Mitra />}>
+        
+      </Route>
+      <Route path='Product' element={<Product />}></Route>
     </Routes>
 
   )

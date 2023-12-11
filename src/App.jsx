@@ -3,6 +3,8 @@ import Homeuser from './Haluser/Haluser.jsx'
 import Homecafe from './Haluser/Homecafe.jsx'
 import Loginuser from './Haluser/Login/Loginuser.jsx'
 import Registeruser from './Haluser/Login/Registeruser.jsx'
+import { Nomatch } from '../Components/Nomach.jsx'
+
 
 function App(){
   return(
@@ -11,6 +13,7 @@ function App(){
       <Route path='Cafe' element={<Homecafe />}></Route>
       <Route path='Loginuser' element={<Loginuser />}></Route>
       <Route path='Registeruser' element={<Registeruser />}></Route>
+      <Route path='*' element={<Nomatch />}></Route>
     </Routes>
 
   )

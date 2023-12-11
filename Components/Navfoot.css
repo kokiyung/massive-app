@@ -31,8 +31,12 @@
 }
 .navbar .sidebutton .firstbutton a{
     text-decoration: none;
-    color: #FCB040;
+    color: black;
+}
+.navbar .sidebutton .firstbutton a.active{
+    text-decoration: none;
     font-weight: bold;
+    color: #FCB040;
 }
 
 .navbar .sidebutton .secondbutton{

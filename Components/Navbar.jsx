@@ -1,10 +1,9 @@
 import './Navfoot.css'
+import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 function Navbar(){
-    const CBlack = {
-        color : 'Black'
-    }
+    
     return(
         
     <div className="navbar">
@@ -14,10 +13,10 @@ function Navbar(){
             
         </div>
         <div className="sidebutton">
-            <div className="firstbutton"><Link to='/'>Home</Link></div>
-            <div className="firstbutton"><a href="#about" style={CBlack}>About</a></div>
-            <div className="firstbutton"><Link to='Cafe'><a href="" style={CBlack}>Cafe</a></Link></div>
-            <div className="secondbutton"><Link to='Loginuser'>Akun</Link></div>
+            <div className="firstbutton"><NavLink to='/'>Home</NavLink></div>
+            <div className="firstbutton"><Link to='#about'>About</Link></div>
+            <div className="firstbutton"><NavLink to='/cafe'>Cafe</NavLink></div>
+            <div className="secondbutton"><Link to='/Loginuser'>Akun</Link></div>
         </div>
     </div>
     );
